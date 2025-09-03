@@ -4,8 +4,8 @@
 #include <HTTPClient.h>
 
 
-const char* ssid = "Anh Phuc";
-const char* password = "dahieu468";
+const char* ssid = "ten wifi"; // nhập tên wifi vào
+const char* password = "mat khau wifi"; // nhập mật khẩu wifi vào
 
 
 const char* firebaseHost = "https://esp32-health-monitor-5ac7a-default-rtdb.asia-southeast1.firebasedatabase.app";
@@ -128,3 +128,4 @@ void loop() {
     tsLastReport = millis();
   }
 }
+
