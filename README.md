@@ -15,7 +15,7 @@ Dữ liệu được gửi lên Firebase và hiển thị trên web (HTML/CSS).
 - Web (HTML/CSS)
 
 ## Cách chạy
-1. Mở `esp32_code/main.ino` trên Arduino IDE và nạp vào ESP32.
+1. Mở `max30100.ino` trên Arduino IDE và nạp vào ESP32.
 2. Cấu hình Firebase trong `firebase/firebase_config.txt`.
-3. Mở `web/index.html` để xem dữ liệu.
+3. Mở `test.html` để xem dữ liệu.
 
